@@ -15,3 +15,9 @@ lg:hidden
 屏幕小于 1024px
 max-lg:hidden
 ```
+
+## 按钮样式
+
+推荐书籍
+[The Best Tailwind CSS Starter Kit](https://resource.jsmastery.pro/tailwind-starter-kit)
+https://attachments.convertkitcdnn2.com/775726/79d569ba-3eef-446f-8424-a0c107a51312/tailwind-css-sk.pdf
