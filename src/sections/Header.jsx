@@ -66,7 +66,7 @@ const Header = () => {
                 <li className="nav-logo">
                   <LinkScroll
                     to="hero"
-                    offset={-100}
+                    offset={-250}
                     spy
                     smooth
                     className={clsx(
