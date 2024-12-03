@@ -2,12 +2,6 @@ import { useEffect, useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import { clsx } from "clsx";
 
-const NavLink = ({ title }) => (
-  <LinkScroll className="base-bold text-p4 uppercase trransition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5">
-    {title}
-  </LinkScroll>
-);
-
 const Header = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +17,21 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const NavLink = ({ title }) => (
+    <LinkScroll
+      // 移动端，点击之后关闭弹框
+      onClick={() => setIsOpen(false)}
+      to={title}
+      offset={-100}
+      spy
+      smooth
+      activeClass="nav-active"
+      className="base-bold text-p4 uppercase trransition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5"
+    >
+      {title}
+    </LinkScroll>
+  );
 
   return (
     <header
