@@ -1,8 +1,7 @@
-# React + Vite
+# Sass-landing_page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> https://github.com/adrianhajdin/xora
 
-Currently, two official plugins are available:
+## [React 中使用 tailwindcss](https://tailwindcss.com/docs/guides/vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[添加 snippets](https://github.com/adrianhajdin/xora?tab=readme-ov-file#snippets)
