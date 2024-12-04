@@ -49,7 +49,7 @@ const Faq = () => {
             </div>
 
             {/* 线条 */}
-            <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2 max-lg:hidden" />
+            <div className="cc faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2 max-lg:hidden" />
           </div>
         </div>
       </Element>
